@@ -1,0 +1,166 @@
+site_name: Infoscience Help
+site_url: https://help.infoscience.epfl.ch
+site_description: Help documentation for Infoscience, the EPFL institutional repository
+site_author: EPFL Library – Infoscience Team
+repo_url: https://github.com/epfllibrary/infoscience-help
+repo_name: epfllibrary/infoscience-help
+edit_uri: edit/main/docs/
+use_directory_urls: false
+site_url: https://epfllibrary.github.io/infoscience-help/
+
+theme:
+  name: material
+  language: en
+  logo: assets/infoscience-logo.svg
+  favicon: assets/infoscience-logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+
+extra_css:
+  - assets/infoscience-theme.css
+
+extra_javascript:
+  - assets/support-modal.js
+
+copyright: >-
+  <strong>Infoscience support</strong> &nbsp;·&nbsp;
+  <a href="mailto:infoscience@epfl.ch">infoscience@epfl.ch</a> &nbsp;·&nbsp;
+  +41 21 693 21 56 &nbsp;·&nbsp;
+  <a href="https://infoscience.epfl.ch" target="_blank">infoscience.epfl.ch</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &copy; 2025 EPFL Library &ndash;
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+
+plugins:
+  - search:
+      lang:
+        - en
+        - fr
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            # Top-level sections
+            Home: Accueil
+            Deposit: Déposer
+            Manage: Gérer
+            Search & Reuse: Rechercher et réutiliser
+            Miscellaneous: Divers
+            # Deposit section
+            Submit a publication: Déposer une publication
+            Use the submission form: Utiliser le formulaire de dépôt
+            File naming and formats: Nommage et formats de fichiers
+            Document types: Types de documents
+            # Manage section
+            My publications: Mes publications
+            My profile: Mon profil
+            My lab/unit page: La page de mon labo/unité
+            Publication lists: Listes de publications
+            Annual Academic Report (AAR): Rapport Académique Annuel (AAR)
+            # Search & Reuse section
+            Search and consult: Rechercher et consulter
+            Identifiers (DOI, Handle, ISBN): Identifiants (DOI, Handle, ISBN)
+            Export and reuse data (OAI, API): Exporter et réutiliser les données
+            # Miscellaneous section
+            Data model: Modèle de données
+            FAQ: FAQ
+            Book an Infoscience expert: Réserver un expert Infoscience
+            Charter, deposit licence and conditions of use: Charte, licence de dépôt et conditions d'utilisation
+
+nav:
+  - Home: index.md
+  - Deposit:
+      - Submit a publication: submit-a-publication.md
+      - Use the submission form: use-submission-form.md
+      - File naming and formats: file-naming-formats.md
+      - Document types: document-types.md
+  - Manage:
+      - My publications: manage-publications.md
+      - My profile: manage-profile.md
+      - My lab/unit page: manage-lab-unit.md
+      - Publication lists: publication-lists.md
+      - Academic Annual Report (AAR): aar.md
+  - Search & Reuse:
+      - Search and consult: search-and-consult.md
+      - Identifiers (DOI, Handle, ISBN): identifiers.md
+      - Export and reuse data (OAI, API): export-reuse.md
+  - Miscellaneous:
+      - Data model: data-model.md
+      - FAQ: faq.md
+      - Book an Infoscience expert: https://go.epfl.ch/book-an-infoscience-expert
+      - Charter, deposit licence and conditions of use: https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:infoscience@epfl.ch
+      name: infoscience@epfl.ch
+    - icon: fontawesome/solid/phone
+      link: tel:+41216932156
+      name: +41 21 693 21 56
+    - icon: fontawesome/solid/globe
+      link: https://infoscience.epfl.ch
+      name: Infoscience platform
+    - icon: fontawesome/solid/calendar-check
+      link: https://go.epfl.ch/book-an-infoscience-expert
+      name: Book an Infoscience expert
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
