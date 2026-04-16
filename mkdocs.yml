@@ -56,11 +56,13 @@ copyright: >-
   </a>
   <strong>Infoscience</strong> &nbsp;·&nbsp;
   <a href="https://infoscience.epfl.ch" target="_blank">infoscience.epfl.ch</a>
-  &nbsp;·&nbsp;
-  +41 21 693 21 56 &nbsp;·&nbsp;<a href="mailto:infoscience@epfl.ch">infoscience@epfl.ch</a> 
   &nbsp;&nbsp;|&nbsp;&nbsp;
   &copy; 2025 <a href="https://library.epfl.ch" target="_blank">EPFL Library</a> &ndash;
   <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/" target="_blank">Legal notice</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/epfl-privacy-policy/" target="_blank">Privacy policy</a>
 
 plugins:
   - search:
