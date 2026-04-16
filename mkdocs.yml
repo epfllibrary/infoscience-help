@@ -48,6 +48,7 @@ extra_css:
 
 extra_javascript:
   - assets/support-modal.js
+  - assets/search-language-filter.js
 
 copyright: >-
   <strong>Infoscience support</strong> &nbsp;·&nbsp;
@@ -65,6 +66,7 @@ plugins:
         - fr
   - i18n:
       docs_structure: suffix
+      reconfigure_search: true
       languages:
         - locale: en
           default: true
