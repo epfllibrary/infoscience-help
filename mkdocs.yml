@@ -11,8 +11,8 @@ site_url: https://epfllibrary.github.io/infoscience-help/
 theme:
   name: material
   language: en
-  logo: assets/infoscience-logo.svg
-  favicon: assets/infoscience-logo.svg
+  logo: assets/images/infoscience-logo.svg
+  favicon: assets/images/infoscience-logo.svg
   font:
     text: Inter
     code: JetBrains Mono
@@ -51,12 +51,15 @@ extra_javascript:
   - assets/search-language-filter.js
 
 copyright: >-
-  <strong>Infoscience support</strong> &nbsp;·&nbsp;
-  <a href="mailto:infoscience@epfl.ch">infoscience@epfl.ch</a> &nbsp;·&nbsp;
-  +41 21 693 21 56 &nbsp;·&nbsp;
+  <a href="https://epfl.ch" title="Infoscience Help" class="md-header__button md-logo" aria-label="Infoscience Help" data-md-component="logo"> 
+  <img src="assets/images/epfl.svg" alt="logo">
+  </a>
+  <strong>Infoscience</strong> &nbsp;·&nbsp;
   <a href="https://infoscience.epfl.ch" target="_blank">infoscience.epfl.ch</a>
+  &nbsp;·&nbsp;
+  +41 21 693 21 56 &nbsp;·&nbsp;<a href="mailto:infoscience@epfl.ch">infoscience@epfl.ch</a> 
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  &copy; 2025 EPFL Library &ndash;
+  &copy; 2025 <a href="https://library.epfl.ch" target="_blank">EPFL Library</a> &ndash;
   <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
 
 plugins:

@@ -434,7 +434,7 @@ mark {
   border-radius: 12px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.22), 0 4px 16px rgba(0, 0, 0, 0.10);
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   overflow: hidden;
   animation: is-slide-up .3s cubic-bezier(.22, .68, 0, 1.2) both;
   position: relative;

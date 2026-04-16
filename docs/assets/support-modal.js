@@ -45,35 +45,12 @@
     '<div class="is-hero-overlay"></div>' +
     '<div class="is-hero-badge">' +
     '<div class="is-hero-badge-dot"></div>' +
-    '<span class="is-hero-badge-text">Support disponible · Support available</span>' +
+    '<span class="is-hero-badge-text">Besoin d\'aide ? ·  Need help?</span>' +
     "</div>" +
     "</div>" +
     /* Corps */
     '<div class="is-body">' +
-    '<p class="is-title" id="is-modal-title">Besoin d\'aide ? / Need help?</p>' +
-    '<p class="is-subtitle">' +
-    "Notre équipe est disponible pour vous accompagner.<br>" +
-    "<em>Our team is available to assist you.</em>" +
-    "</p>" +
     '<div class="is-actions">' +
-    /* Réserver */
-    '<a class="is-action" href="https://go.epfl.ch/book-an-infoscience-expert" target="_blank" rel="noopener">' +
-    '<div class="is-action-icon is-action-icon--book">' +
-    '<svg viewBox="0 0 24 24" fill="none" stroke="#00A79F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
-    '<rect x="3" y="4" width="18" height="18" rx="2"/>' +
-    '<line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>' +
-    '<line x1="3" y1="10" x2="21" y2="10"/>' +
-    '<circle cx="12" cy="15" r="2"/>' +
-    "</svg>" +
-    "</div>" +
-    '<div class="is-action-content">' +
-    '<strong class="is-action-title">Réserver une session / Book an expert</strong>' +
-    '<span class="is-action-desc">Dépôt, profil, labo, listes, DOI, API… · Submission, profile, lab, lists, DOI, API…</span>' +
-    "</div>" +
-    '<svg class="is-action-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-    '<path d="M3 8h10M9 4l4 4-4 4"/>' +
-    "</svg>" +
-    "</a>" +
     /* Email */
     '<a class="is-action" href="mailto:infoscience@epfl.ch">' +
     '<div class="is-action-icon is-action-icon--mail">' +
@@ -91,11 +68,28 @@
     "</svg>" +
     "</a>" +
     "</div>" +
+    /* Réserver */
+    '<a class="is-action" href="https://go.epfl.ch/book-an-infoscience-expert" target="_blank" rel="noopener">' +
+    '<div class="is-action-icon is-action-icon--book">' +
+    '<svg viewBox="0 0 24 24" fill="none" stroke="#00A79F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' +
+    '<rect x="3" y="4" width="18" height="18" rx="2"/>' +
+    '<line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>' +
+    '<line x1="3" y1="10" x2="21" y2="10"/>' +
+    '<circle cx="12" cy="15" r="2"/>' +
+    "</svg>" +
+    "</div>" +
+    '<div class="is-action-content">' +
+    '<strong class="is-action-title">Réserver une session / Book an Infoscience expert</strong>' +
+    '<span class="is-action-desc">Dépôt, profil, exports, DOI, API… · Submission, profile, exports, DOI, API…</span>' +
+    "</div>" +
+    '<svg class="is-action-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M3 8h10M9 4l4 4-4 4"/>' +
+    "</svg>" +
+    "</a>" +
     "</div>" +
     /* Pied */
     '<div class="is-footer">' +
-    '<span class="is-footer-text">EPFL Library · Infoscience Team</span>' +
-    '<button class="is-footer-dismiss" id="is-dismiss">Continuer vers l\'aide / Go to help →</button>' +
+    '<button class="is-footer-dismiss flex-end" id="is-dismiss">Continuer vers l\'aide / Go to help →</button>' +
     "</div>" +
     "</div>" +
     "</div>";
