@@ -22,10 +22,10 @@
   var base = document.querySelector('link[rel="canonical"]');
   var imgPath = base
     ? new URL(
-        "assets/images/infoscience-support.png",
+        "infoscience-help/assets/images/infoscience-support.png",
         new URL(base.href).origin,
       ).href
-    : "assets/images/infoscience-support.png";
+    : "infoscience-help/assets/images/infoscience-support.png";
 
   /* ── 3. HTML du modal ───────────────────────────────────────────────────── */
   var html =
