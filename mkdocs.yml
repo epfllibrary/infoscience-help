@@ -152,6 +152,9 @@ extra:
     - icon: fontawesome/solid/calendar-check
       link: https://go.epfl.ch/book-an-infoscience-expert
       name: Book an Infoscience expert
+  analytics:
+    provider: google
+    property: G-RDGTVQFPL6
 
 markdown_extensions:
   - admonition
