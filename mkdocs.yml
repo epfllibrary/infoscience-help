@@ -51,7 +51,7 @@ extra_javascript:
 
 copyright: >-
   <a href="https://epfl.ch" title="Infoscience Help" class="md-header__button md-logo" aria-label="Infoscience Help" data-md-component="logo"> 
-  <img src="assets/images/epfl.svg" alt="logo">
+  <img src="https://help-infoscience.epfl.ch/assets/images/epfl.svg" alt="logo">
   </a>
   <strong>Infoscience</strong> &nbsp;·&nbsp;
   <a href="https://infoscience.epfl.ch" target="_blank">infoscience.epfl.ch</a>
