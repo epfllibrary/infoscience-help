@@ -11,7 +11,7 @@ theme:
   name: material
   language: en
   logo: assets/images/infoscience-logo.svg
-  favicon: assets/images/infoscience-logo.svg
+  favicon: assets/images/favicon.png
   font:
     text: Inter
     code: JetBrains Mono
@@ -56,12 +56,12 @@ copyright: >-
   <strong>Infoscience</strong> &nbsp;·&nbsp;
   <a href="https://infoscience.epfl.ch" target="_blank">infoscience.epfl.ch</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  &copy; 2025 <a href="https://library.epfl.ch" target="_blank">EPFL Library</a> &ndash;
-  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/" target="_blank">Legal notice</a>
   &nbsp;·&nbsp;
   <a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/epfl-privacy-policy/" target="_blank">Privacy policy</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &copy; 2025 <a href="https://library.epfl.ch" target="_blank">EPFL Library</a> &ndash;
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
 
 plugins:
   - search:
@@ -154,6 +154,13 @@ extra:
   analytics:
     provider: google
     property: G-RDGTVQFPL6
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
 markdown_extensions:
   - admonition

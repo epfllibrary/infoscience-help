@@ -97,7 +97,7 @@ The published URL will be `https://epfllibrary.github.io/infoscience-help/` (or 
 
 To use `https://help.infoscience.epfl.ch`:
 
-1. Add a `docs/CNAME` file containing `help.infoscience.epfl.ch`
+1. Add a `docs/CNAME` file containing `help-infoscience.epfl.ch`
 2. In **Settings → Pages → Custom domain**, enter the domain
 3. Ask your IT team to create a CNAME DNS record pointing to `epfllibrary.github.io`
 4. GitHub handles TLS automatically

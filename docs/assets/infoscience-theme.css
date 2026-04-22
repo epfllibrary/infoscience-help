@@ -26,6 +26,10 @@
   --md-code-bg-color: #f0f4f4;
   --md-code-fg-color: #212121;
 
+  --md-footer-bg-color--dark: #e6e6e6;
+  --md-footer-fg-color--light: #707070;
+  --md-footer-fg-color--lighter: #707070;
+
   --is-sidebar-bg: #f8fafa;
   --is-sidebar-border: #d5d5d5;
   --is-nav-section-color: #00A79F;
@@ -199,6 +203,11 @@
 }
 
 /* ── 5. Contenu ──────────────────────────────────────────────────────────── */
+.md-typeset {
+  font-size: .7rem;
+  line-height: 1.5;
+}
+
 
 .md-typeset h1 {
   color: var(--md-default-fg-color);
@@ -303,42 +312,6 @@
 
 /* ── 8. Footer ───────────────────────────────────────────────────────────── */
 
-.md-footer {
-  background-color: #00A79F;
-  color: #ffffff;
-}
-
-[data-md-color-scheme="slate"] .md-footer {
-  background-color: #006b64;
-}
-
-.md-footer-meta {
-  background-color: #007480;
-}
-
-[data-md-color-scheme="slate"] .md-footer-meta {
-  background-color: #005a5a;
-}
-
-.md-footer__link,
-.md-footer-meta__inner a {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.md-footer__link:hover,
-.md-footer-meta__inner a:hover {
-  color: #ffffff;
-}
-
-.md-footer-copyright {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 11px;
-}
-
-.md-footer-copyright a {
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: underline;
-}
 
 /* ── 9. Recherche ────────────────────────────────────────────────────────── */
 
