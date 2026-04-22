@@ -43,11 +43,14 @@ theme:
     - toc.follow
 
 extra_css:
-  - assets/infoscience-theme.css
+  - assets/css/infoscience-theme.css
+  - assets/css/metadata-profile.css
+
 
 extra_javascript:
-  - assets/support-modal.js
-  - assets/search-language-filter.js
+  - assets/js/support-modal.js
+  - assets/js/search-language-filter.js
+  - assets/js/metadata-profile.js
 
 copyright: >-
   <a href="https://epfl.ch" title="Infoscience Help" class="md-header__button md-logo" aria-label="Infoscience Help" data-md-component="logo"> 
@@ -103,6 +106,7 @@ plugins:
             Export and reuse data (OAI, API): Exporter et réutiliser les données
             # Miscellaneous section
             Data model: Modèle de données
+            Metadata Application Profile: Profil d'application des métadonnées
             FAQ: FAQ
             Book an Infoscience expert: Réserver un expert Infoscience
             Charter, deposit licence and conditions of use: Charte, licence de dépôt et conditions d'utilisation
@@ -126,6 +130,7 @@ nav:
       - Export and reuse data (OAI, API): export-reuse.md
   - Miscellaneous:
       - Data model: data-model.md
+      - Metadata Application Profile: metadata-profile.md
       - FAQ: faq.md
       - Book an Infoscience expert: https://go.epfl.ch/book-an-infoscience-expert
       - Charter, deposit licence and conditions of use: https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/
