@@ -180,7 +180,7 @@ To obtain more precise results, we strongly recommend that you build well-define
 ### Search for all references for a given author
 
 ```
-author:(bierlaire, michel)
+author:(smith, john)
 ```
 
 [Try this query →](https://infoscience.epfl.ch/search?spc.page=1&query=author:(bierlaire,%20michel)&configuration=researchoutputs)
@@ -188,7 +188,7 @@ author:(bierlaire, michel)
 ### Search for all references for a person with the role of author or scientific editor
 
 ```
-author_editor:(bierlaire, michel)
+author_editor:(smith, john)
 ```
 
 [Try this query →](https://infoscience.epfl.ch/search?spc.page=1&query=author_editor:(bierlaire,michel)&configuration=researchoutputs)
