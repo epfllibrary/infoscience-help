@@ -48,9 +48,10 @@ extra_css:
 
 
 extra_javascript:
-  - assets/js/support-modal.js
   - assets/js/search-language-filter.js
   - assets/js/metadata-profile.js
+  - assets/js/support-modal.js
+  - assets/js/page-footer-cta.js
 
 copyright: >-
   <a href="https://epfl.ch" title="Infoscience Help" class="md-header__button md-logo" aria-label="Infoscience Help" data-md-component="logo"> 
