@@ -13,7 +13,7 @@ const UI={
       req_lbl:'required',rep_lbl:'repeatable',tb_lbl:'type-bound',
       auth_resolves:'\u2192',rows:'fields',
       modal_title:'Vocabulary values',modal_close:'\u00d7',
-      virt_title:'Virtual metadata',
+      virt_title:'Automatic fields',
       virt_desc:'These fields are filled in automatically based on information already recorded in the profiles of linked researchers, units, or other entities in Infoscience. They cannot be edited directly — they reflect the current state of those profiles and update accordingly.',
       virt_hdr_field:'Virtual field',virt_hdr_entities:'Source entities',
       virt_hdr_trigger:'Trigger field(s)',virt_hdr_fetched:'Fetched from',virt_hdr_desc:'Description',
@@ -27,7 +27,7 @@ const UI={
       req_lbl:'obligatoire',rep_lbl:'r\u00e9p\u00e9table',tb_lbl:'type-bind',
       auth_resolves:'\u2192',rows:'champs',
       modal_title:'Valeurs du vocabulaire',modal_close:'\u00d7',
-      virt_title:'Métadonnées virtuelles',
+      virt_title:'Champs automatiques',
       virt_desc:'Ces champs sont renseignés automatiquement à partir des informations déjà saisies dans les profils des chercheurs, unités ou autres entités liées dans Infoscience. Ils ne peuvent pas être modifiés directement\u00a0: ils reflètent l\u2019état actuel de ces profils et se mettent à jour en conséquence.',
       virt_hdr_field:'Champ virtuel',virt_hdr_entities:'Entit\u00e9s source',
       virt_hdr_trigger:'D\u00e9clencheur(s)',virt_hdr_fetched:'Extrait de',virt_hdr_desc:'Description',
@@ -94,17 +94,16 @@ function ensureModal(){
   }
   return modalEl;
 }
-function openModal(vocName, valsEnJSON, valsFrJSON){
-  const valsEn=typeof valsEnJSON==='string'?JSON.parse(valsEnJSON):valsEnJSON;
-  const valsFr=typeof valsFrJSON==='string'?JSON.parse(valsFrJSON):valsFrJSON;
-  const Lc=L(); const isEn=lang()==='en';
+function openModal(vocName, valsEn, valsFr, collectionLabel){
+  const Lc=L(); const isEn=lang()!=='fr';
   const display=(!isEn&&valsFr&&valsFr.length)?valsFr:valsEn;
   const alt=isEn?valsFr:valsEn;
   const m=ensureModal();
+  const titleLine=collectionLabel||Lc.modal_title;
   let html=`<div class="map-modal">
     <div class="map-modal-hdr">
       <div>
-        <div class="map-modal-title">${esc(Lc.modal_title)}</div>
+        <div class="map-modal-title">${esc(titleLine)}</div>
         <div class="map-modal-voc">${esc(vocName)}</div>
       </div>
       <button class="map-modal-close" onclick="MAPcloseModal()" aria-label="close">&times;</button>
@@ -122,7 +121,6 @@ function openModal(vocName, valsEnJSON, valsFrJSON){
   m.style.cssText='display:flex;position:fixed;inset:0;z-index:9998;background:rgba(0,0,0,.4);align-items:center;justify-content:center;padding:20px';
 }
 window.MAPcloseModal=()=>{if(modalEl) modalEl.style.display='none';};
-window.openModal=openModal;
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let DATA=null, activeEntity=null, expanded=new Set(), sortCol=null, sortDir='asc';
@@ -186,14 +184,32 @@ function cellAuth(row){
 
 function cellVoc(row){
   const voc=row.vocabulary;
-  const valsEn=row.vocabulary_values_en||[];
-  const valsFr=row.vocabulary_values_fr||[];
   if(!voc) return`<span class="map-voc-none">—</span>`;
+  const isEn=lang()!=='fr';
+
+  // Multi-vocabulary COAR: one button per vocab, data stored in data-* attributes
+  const perVoc=row.vocabulary_per_voc;
+  if(perVoc&&perVoc.length){
+    return perVoc.map((pv,i)=>{
+      const label=isEn?pv.collection_en:pv.collection_fr;
+      const count=(isEn?pv.values_en:pv.values_fr).length;
+      return`<button class="map-voc-btn"
+        data-field="${esc(row.field)}"
+        data-entity="${esc(row.entity)}"
+        data-vocidx="${i}"
+      >${esc(label)} <span style="opacity:.55;font-weight:400">(${count})</span></button>`;
+    }).join('');
+  }
+
+  // Single vocabulary with closed values
+  const valsEn=row.vocabulary_values_en||[];
   const isCOAR=voc.includes('coar-types')||voc==='oecd';
   if(!valsEn.length) return`<span class="${isCOAR?'map-voc-ext':'map-voc-none'}">${esc(voc)}</span>`;
-  const safeEn=esc(JSON.stringify(valsEn));
-  const safeFr=esc(JSON.stringify(valsFr));
-  return`<button class="map-voc-btn" onclick="openModal('${esc(voc)}','${safeEn}','${safeFr}')">${esc(voc)} <span style="opacity:.6;font-weight:400">(${valsEn.length})</span></button>`;
+  return`<button class="map-voc-btn"
+    data-field="${esc(row.field)}"
+    data-entity="${esc(row.entity)}"
+    data-vocidx="-1"
+  >${esc(voc)} <span style="opacity:.6;font-weight:400">(${valsEn.length})</span></button>`;
 }
 
 function rowHtml(row, sub=false, last=false){
@@ -257,6 +273,29 @@ function render(){
     tbody.innerHTML=parts.join('');
   }
   const vc=$('map-vis-count'); if(vc) vc.textContent=visible.length;
+
+  // Vocabulary button click — look up data from DATA (avoids JSON-in-onclick)
+  tbody.addEventListener('click', e=>{
+    const btn=e.target.closest('.map-voc-btn');
+    if(!btn) return;
+    const field=btn.dataset.field;
+    const entity=btn.dataset.entity;
+    const vocIdx=parseInt(btn.dataset.vocidx);
+    const allRows=[...(DATA.item_rows||[]),...(DATA.file_rows||[])];
+    const row=allRows.find(r=>r.field===field&&r.entity===entity);
+    if(!row) return;
+    const isEn=lang()!=='fr';
+    if(vocIdx>=0){
+      // Multi-voc: look up by index
+      const pv=(row.vocabulary_per_voc||[])[vocIdx];
+      if(!pv) return;
+      const label=isEn?pv.collection_en:pv.collection_fr;
+      openModal(pv.voc_name, pv.values_en, pv.values_fr, label);
+    } else {
+      // Single-voc
+      openModal(row.vocabulary, row.vocabulary_values_en||[], row.vocabulary_values_fr||[], '');
+    }
+  });
 
   // Tooltip events on .map-code elements
   tbody.querySelectorAll('.map-code').forEach(el=>{
