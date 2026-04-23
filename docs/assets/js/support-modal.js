@@ -1,6 +1,6 @@
 /**
  * Infoscience Help — Support modal
- * Affiché une fois par session (sessionStorage).
+ * Affiché une fois par période de 30 jours (localStorage).
  * MkDocs injecte ce script en fin de <body> sur chaque page.
  *
  * L'image assets/images/infoscience-support.png doit être présente dans docs/assets/images/.
@@ -9,11 +9,16 @@
 (function () {
   "use strict";
 
-  /* ── 1. Une seule fois par session ─────────────────────────────────────── */
+  /* ── 1. Une seule fois par période (localStorage, 30 jours) ────────────
+     sessionStorage ne couvre pas les nouveaux onglets ni les retours sur
+     le site. localStorage persiste entre onglets et sessions.
+     La clé stocke un timestamp ; on réaffiche après 30 jours.           */
+  var TTL_MS = 30 * 24 * 60 * 60 * 1000; /* 30 jours en ms */
   try {
-    if (sessionStorage.getItem("is-support-seen")) return;
+    var seen = localStorage.getItem("is-support-seen");
+    if (seen && Date.now() - parseInt(seen, 10) < TTL_MS) return;
   } catch (e) {
-    /* sessionStorage indisponible → on affiche quand même */
+    /* localStorage indisponible (navigation privée stricte) → on affiche */
   }
 
   /* ── 2. Résoudre le chemin de base du site ──────────────────────────────
@@ -99,6 +104,14 @@
   wrapper.innerHTML = html;
   document.body.appendChild(wrapper.firstChild);
 
+  /* ── 4b. Marquer dès l'affichage ────────────────────────────────────────
+     Timestamp enregistré immédiatement : même si l'utilisateur quitte via
+     un lien du modal sans cliquer sur × ou "Continuer", le modal ne
+     réapparaîtra pas avant 30 jours, quel que soit l'onglet ou la session. */
+  try {
+    localStorage.setItem("is-support-seen", String(Date.now()));
+  } catch (e) {}
+
   /* ── 5. Fermeture ────────────────────────────────────────────────────────── */
   function closeModal() {
     var overlay = document.getElementById("is-overlay");
@@ -108,9 +121,6 @@
     setTimeout(function () {
       if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
     }, 220);
-    try {
-      sessionStorage.setItem("is-support-seen", "1");
-    } catch (e) {}
   }
 
   /* Clic sur l'overlay (hors modal) */
