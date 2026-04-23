@@ -1,6 +1,6 @@
 # File naming and formats best practices
 
-It is essential for file submitters to prioritize **durable formats** to avoid loss of readability. They are also encouraged to carefully **name and version their files**, as this affects their identification and reuse.
+It is essential for file submitters to prioritize durable formats to avoid loss of readability. They are also encouraged to carefully **name and version their files**, as this affects their identification and reuse.
 
 ---
 
