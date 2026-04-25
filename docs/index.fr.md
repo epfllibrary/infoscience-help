@@ -1,10 +1,9 @@
 # Aide Infoscience
 
-Bienvenue dans la documentation d'aide d'Infoscience — le dépôt institutionnel de l'EPFL.
+Bienvenue sur la documentation officielle d'Infoscience, le dépôt institutionnel de l'EPFL. 
+Que vous soyez chercheur·euse, responsable d'unité ou assistant·e administratif·ve, vous trouverez ici des guides pratiques pour déposer et gérer vos publications, maintenir votre profil de recherche, créer des listes de publications pour votre labo, obtenir des identifiants pérennes (DOI, Handle, ISBN), exporter vos données vers ORCID ou d'autres systèmes, et comprendre le modèle de données Infoscience. 
+Toute la documentation est disponible en français et en anglais.
 
-!!! info "Rapport académique annuel (RAA) — 16 mars au 24 avril"
-    Vous êtes responsable d'unité ou de laboratoire ? C'est le moment de vérifier que les listes de publications et de brevets de vos groupes de recherche sont correctement référencées dans Infoscience.
-    [Plus d'informations](aar.fr.md)
 
 ## Que souhaitez-vous faire ?
 

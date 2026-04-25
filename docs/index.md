@@ -1,10 +1,10 @@
 # Infoscience Help
 
-Welcome to the Infoscience help documentation — the EPFL institutional repository.
+Welcome to the official documentation for Infoscience, the EPFL institutional repository. 
+Whether you are a researcher, a unit head, or an administrative assistant, you will find practical guides for depositing and managing your publications, maintaining your research profile, building publication lists for your lab, obtaining persistent identifiers (DOI, Handle, ISBN), exporting your data to ORCID or other systems, and understanding the Infoscience data model. 
+All documentation is available in English and French.
 
-!!! info "Annual Academic Report (AAR) — March 16 to April 24"
-    Are you a unit head or manager? This is the time to verify that the lists of publications and patents for the laboratories, chairs, and research groups at EPFL are correctly referenced in Infoscience.
-    [More information](aar.md)
+
 
 ## What would you like to do?
 
