@@ -30,7 +30,7 @@ The Annual Academic Report (AAR) aims to report on the activities of **laborator
 ![Access button AAR in Sesame](assets/images/aar/acces-aar.png)
 
 - **Login:** The academic report is accessible on the [Sesame portal](https://sesame.epfl.ch/), Projects section, AAR Validation tile;
-- **Access** is automatic for unit heads based on ACCRED rights. If the button does not appear, contact [dri@epfl.ch](mailto:dri@epfl.ch) ;
+- **Access** is automatic for unit heads based on ACCRED rights. If the button does not appear, contact [1234@epfl.ch](mailto:1234@epfl.ch) ;
 - **Delegation of Rights:** unit heads can delegate access to other collaborators via [accred.epfl.ch](http://accred.epfl.ch/), using the authorization: "AAR – see academic achievement reports" ;
 - **Multi-Unit Navigation:** if you manage multiple units, use the drop-down menu in the top left to switch between units.
 
