@@ -1,3 +1,8 @@
+---
+description: >-
+  Guide pas à pas pour déposer une publication dans Infoscience : choix du type de document, remplissage du formulaire, dépôt des fichiers et gestion de l'accès ouvert.
+---
+
 # Déposer une publication
 
 ![Bannière — Déposer une publication](assets/images/submit-a-publication/banner.png)

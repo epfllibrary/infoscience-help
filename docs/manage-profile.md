@@ -1,3 +1,10 @@
+---
+search:
+  boost: 1.5
+description: >-
+  How to manage your Infoscience researcher profile: ORCID synchronisation, publication lists, affiliations, and profile visibility.
+---
+
 # Manage my Infoscience profile
 
 ![Page banner — Manage my Infoscience profile](assets/images/manage-profile/banner.png)

@@ -1,3 +1,8 @@
+---
+description: >-
+  Questions fréquentes sur Infoscience : dépôt de publications, accès ouvert, DOI, profils chercheur·euse, listes de publications et exports de données.
+---
+
 # FAQ Infoscience
 
 Vous avez des questions relatives à Infoscience ? Consultez d'abord l'[Aide thématique](index.fr.md).

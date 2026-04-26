@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment rechercher, filtrer et consulter des notices dans Infoscience : recherche plein texte, facettes, pages chercheur·euse et unité, et syntaxe de requête avancée.
+---
+
 # Rechercher et consulter
 
 Pour trouver une publication, un.e auteur.rice, un laboratoire ou un sujet spécifique, naviguez à travers Infoscience !

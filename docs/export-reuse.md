@@ -1,3 +1,8 @@
+---
+description: >-
+  How to export and reuse Infoscience data: OAI-PMH harvesting, REST API, BibTeX/RIS export, ORCID push, and widget integration.
+---
+
 # Export, share, and reuse Infoscience data (API, OAI, exports, etc.)
 
 ![Page banner — Export, share, and reuse Infoscience data](assets/images/export-reuse/banner.png)

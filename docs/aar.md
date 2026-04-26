@@ -1,3 +1,8 @@
+---
+description: >-
+  How Infoscience feeds the EPFL Annual Academic Report (AAR): trusted source for publications and patents, validation workflow.
+---
+
 # Infoscience and the Annual Academic Report (AAR)
 
 !!! warning "Key Principles to Remember"

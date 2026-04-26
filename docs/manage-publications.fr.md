@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment modifier, corriger, supprimer ou transférer des publications dans Infoscience, et gérer le workflow de curation.
+---
+
 # Gérer mes publications
 
 ![Bannière — Gérer mes publications](assets/images/manage-publications/banner.png)

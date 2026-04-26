@@ -1,3 +1,10 @@
+---
+search:
+  boost: 2.0
+description: >-
+  Official help documentation for Infoscience, the EPFL institutional repository. Guides for depositing, managing, and reusing research publications and data.
+---
+
 # Infoscience Help
 
 Welcome to the official documentation for Infoscience, the EPFL institutional repository. 

@@ -1,3 +1,10 @@
+---
+search:
+  boost: 2.0
+description: >-
+  Frequently asked questions about Infoscience: depositing publications, open access, DOIs, researcher profiles, publication lists, and data exports.
+---
+
 # Infoscience FAQ
 
 You have questions about Infoscience? We encourage you to first consult the [thematic Help pages](index.md).

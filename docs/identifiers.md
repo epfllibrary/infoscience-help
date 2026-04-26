@@ -1,3 +1,8 @@
+---
+description: >-
+  How to obtain a persistent identifier (Handle, DOI, ISBN) for your Infoscience records, and how to register a DOI for datasets and reports.
+---
+
 # Obtain an identifier (Handle, DOI, ISBN)
 
 ![Page banner — Obtain an identifier](assets/images/identifiers/banner.png)

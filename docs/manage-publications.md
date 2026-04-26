@@ -1,3 +1,10 @@
+---
+search:
+  boost: 1.5
+description: >-
+  How to edit, correct, delete, or transfer publications in Infoscience, and manage the curation workflow.
+---
+
 # Manage my publications
 
 ![Page banner — Manage my publications](assets/images/manage-publications/banner.png)

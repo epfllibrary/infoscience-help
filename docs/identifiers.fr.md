@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment obtenir un identifiant pérenne (Handle, DOI, ISBN) pour vos notices Infoscience, et enregistrer un DOI pour vos jeux de données et rapports.
+---
+
 # Obtenir un identifiant (Handle, DOI, ISBN)
 
 ![Bannière — Obtenir un identifiant](assets/images/identifiers/banner.png)

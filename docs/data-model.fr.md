@@ -1,3 +1,8 @@
+---
+description: >-
+  Vue d'ensemble du modèle de données Infoscience : types d'entités (Publication, Personne, Unité, Brevet…), espaces de noms de métadonnées.
+---
+
 # Modèle de données Infoscience
 
 Le modèle de données Infoscience décrit toutes les entités, champs de métadonnées et leurs relations dans le dépôt.

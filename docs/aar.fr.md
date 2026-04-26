@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment Infoscience alimente le Rapport Académique Annuel (AAR) de l'EPFL : source de vérité pour les publications et brevets, workflow de validation.
+---
+
 # Infoscience et le Rapport Académique Annuel (AAR)
 
 !!! warning "Principes clés à retenir"

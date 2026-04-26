@@ -1,0 +1,21 @@
+# docs/.meta.yml — Métadonnées communes à toutes les pages du site
+# Appliqué par le plugin meta de MkDocs Material à tous les .md de docs/
+# Les valeurs ici sont des défauts ; le front matter de chaque page les surcharge.
+
+# ── Auteur commun ─────────────────────────────────────────────────────────────
+# Affiché dans les métadonnées HTML et utilisé par le plugin social pour les cartes
+authors:
+  - EPFL Library – Repositories Team
+
+# ── Comportement de recherche par défaut ─────────────────────────────────────
+# Boost neutre pour toutes les pages (les pages clés ont leur propre valeur
+# en front matter qui prend le dessus)
+search:
+  boost: 1.0
+
+# ── Carte sociale par défaut ──────────────────────────────────────────────────
+# Toutes les pages utilisent le layout par défaut avec fond vert canard.
+# Les pages peuvent surcharger en ajoutant social.cards_layout_options en front matter.
+social:
+  cards: true
+  cards_layout: default

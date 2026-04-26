@@ -1,3 +1,10 @@
+---
+search:
+  boost: 1.5
+description: >-
+  Detailed guide to the Infoscience submission form: metadata fields, controlled vocabularies, authority control (ORCID, ROR), file upload, and type-specific fields.
+---
+
 # Use the submission form
 
 ![Page banner — Use the submission form](assets/images/use-submission-form/banner.png)

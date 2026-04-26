@@ -1,3 +1,10 @@
+---
+search:
+  boost: 2.0
+description: >-
+  Step-by-step guide to depositing a publication in Infoscience: choosing the document type, filling in the submission form, uploading files, and managing open access compliance.
+---
+
 # Submit a publication
 
 ![Page banner — Submit a publication](assets/images/submit-a-publication/banner.png)

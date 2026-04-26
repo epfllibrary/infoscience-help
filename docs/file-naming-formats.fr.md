@@ -1,3 +1,8 @@
+---
+description: >-
+  Bonnes pratiques pour le nommage et le choix des formats de fichiers lors du dépôt dans Infoscience : formats durables, versionnage et conventions de nommage.
+---
+
 # Conseils pour le dépôt de vos fichiers (nommage, formats, versions)
 
 Il est essentiel que les déposants de fichiers privilégient des **formats durables**, pour éviter la perte de lisibilité. Ils sont également encouragés à soigner le **nommage et le versionnage des fichiers**, car ils conditionnent leur identification et leur réutilisation.

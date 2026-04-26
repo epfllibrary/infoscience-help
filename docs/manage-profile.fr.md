@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment gérer votre profil de chercheur·euse dans Infoscience : synchronisation ORCID, listes de publications, affiliations et visibilité du profil.
+---
+
 # Gérer mon profil Infoscience
 
 ![Bannière — Gérer mon profil Infoscience](assets/images/manage-profile/banner.png)

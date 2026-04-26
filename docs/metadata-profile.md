@@ -1,3 +1,12 @@
+---
+search:
+  boost: 0.5
+social:
+  cards: false
+description: >-
+  Interactive reference of all Infoscience metadata fields: entity, label, input type, authority control, controlled vocabularies, and virtual metadata.
+---
+
 # Metadata Application Profile
 
 The Infoscience Metadata Application Profile (MAP) is an exhaustive, filterable reference of all metadata fields defined in the Infoscience configuration. It covers two levels:

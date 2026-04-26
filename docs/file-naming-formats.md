@@ -1,3 +1,8 @@
+---
+description: >-
+  Best practices for file naming and format selection when depositing in Infoscience: durable formats, versioning, and naming conventions.
+---
+
 # File naming and formats best practices
 
 It is essential for file submitters to prioritize durable formats to avoid loss of readability. They are also encouraged to carefully **name and version their files**, as this affects their identification and reuse.

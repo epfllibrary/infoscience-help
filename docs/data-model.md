@@ -1,3 +1,8 @@
+---
+description: >-
+  Overview of the Infoscience data model: entity types (Publication, Person, OrgUnit, Patent…), metadata namespaces.
+---
+
 # Data model Infoscience
 
 The Infoscience data model describes all entities, metadata fields, and their relationships in the repository.

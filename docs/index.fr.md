@@ -1,3 +1,8 @@
+---
+description: >-
+  Documentation officielle d'aide pour Infoscience, le dépôt institutionnel de l'EPFL. Guides pour déposer, gérer et réutiliser vos publications et données de recherche.
+---
+
 # Aide Infoscience
 
 Bienvenue sur la documentation officielle d'Infoscience, le dépôt institutionnel de l'EPFL. 

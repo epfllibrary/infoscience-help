@@ -1,3 +1,8 @@
+---
+description: >-
+  How to create, configure, and embed dynamic publication lists from Infoscience on your lab website or EPFL people page.
+---
+
 # Create/edit my publication lists
 
 ![Page banner — Create/edit my publication lists](assets/images/publication-lists/banner.png)

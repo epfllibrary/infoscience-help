@@ -1,3 +1,8 @@
+---
+description: >-
+  Guide détaillé du formulaire de dépôt Infoscience : champs de métadonnées, vocabulaires contrôlés, contrôle d'autorité (ORCID, ROR), dépôt de fichiers et champs spécifiques par type.
+---
+
 # Utiliser le formulaire de dépôt
 
 ![Bannière — Utiliser le formulaire de dépôt](assets/images/use-submission-form/banner.png)

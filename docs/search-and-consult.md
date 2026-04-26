@@ -1,3 +1,9 @@
+---
+description: >-
+  How to search, filter, and consult records in Infoscience: full-text search, facets, researcher and unit pages, and advanced query syntax.
+---
+
+
 # Search and consult
 
 To find a publication, an author, a laboratory or a specific subject, browse through Infoscience!

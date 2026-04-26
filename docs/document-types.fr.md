@@ -1,3 +1,8 @@
+---
+description: >-
+  Liste des types de documents acceptés dans Infoscience (articles, livres, thèses, jeux de données, brevets, rapports…) avec définitions issues du vocabulaire COAR Resource Types.
+---
+
 # Types de documents dans Infoscience
 
 Cette page recense les types de documents acceptés sur la plateforme Infoscience, avec leurs définitions (issues principalement du [vocabulaire COAR « Resource types »](https://vocabularies.coar-repositories.org/documentation/resource_types/)). Ils sont regroupés par familles : Publication, Dataset et autre produit, Brevet.

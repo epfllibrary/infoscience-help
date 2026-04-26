@@ -1,3 +1,8 @@
+---
+description: >-
+  List of document types accepted in Infoscience (articles, books, theses, datasets, patents, reports…) with definitions based on the COAR Resource Types vocabulary.
+---
+
 # Document types in Infoscience
 
 This page lists the types of documents accepted on the Infoscience platform, along with their definitions (primarily derived from the [COAR "Resource types" vocabulary](https://vocabularies.coar-repositories.org/documentation/resource_types/)). They are grouped into categories: Publication, Dataset and other product, Patent.

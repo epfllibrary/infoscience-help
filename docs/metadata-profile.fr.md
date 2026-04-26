@@ -1,3 +1,12 @@
+---
+search:
+  boost: 0.5
+social:
+  cards: false
+description: >-
+  Référence interactive de tous les champs de métadonnées Infoscience : entité, label, type de saisie, contrôle d'autorité, vocabulaires contrôlés et métadonnées virtuelles.
+---
+
 # Profil d'application des métadonnées
 
 Le profil d'application des métadonnées (MAP) d'Infoscience est un référentiel exhaustif et filtrable de tous les champs de métadonnées définis dans la configuration d'Infoscience. Il couvre deux niveaux :

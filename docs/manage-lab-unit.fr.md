@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment gérer la page Infoscience de votre laboratoire ou unité EPFL : listes de publications, délégation d'accès et paramètres du profil d'unité.
+---
+
 # Gérer la page de mon laboratoire / unité
 
 ![Bannière — Gérer la page de mon laboratoire/unité](assets/images/manage-lab-unit/banner.png)

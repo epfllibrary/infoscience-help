@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment créer, configurer et intégrer des listes de publications dynamiques depuis Infoscience sur le site de votre labo ou votre page EPFL people.
+---
+
 # Créer/Modifier mes listes de publications
 
 ![Bannière — Créer/Modifier mes listes de publications](assets/images/publication-lists/banner.png)

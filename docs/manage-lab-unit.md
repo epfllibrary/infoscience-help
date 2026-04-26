@@ -1,3 +1,8 @@
+---
+description: >-
+  How to manage the Infoscience page of your laboratory or EPFL unit: publication lists, delegating access, and unit profile settings.
+---
+
 # Manage my lab/unit page
 
 ![Page banner — Manage my lab/unit page](assets/images/manage-lab-unit/banner.png)

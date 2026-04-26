@@ -46,7 +46,6 @@ theme:
     - content.action.edit
     - content.action.view
     - toc.follow
-    - navigation.indexes
 
 extra_css:
   - assets/css/infoscience-theme.css
@@ -54,7 +53,7 @@ extra_css:
 
 
 extra_javascript:
-  - assets/js/search-language-filter.js
+  # - assets/js/search-language-filter.js
   - assets/js/metadata-profile.js
   - assets/js/support-modal.js
   - assets/js/page-footer-cta.js
@@ -75,14 +74,16 @@ copyright: >-
 
 plugins:
   - search:
-      lang:
-        - en
-        - fr
+      lang: [en, fr]
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - meta:
+      meta_file: .meta.yml
   - social:
       cards: true
       cards_layout_options:
-        background_color: "#00A79F"
+        background_color: "#007480"
         color: "#ffffff"
+      cards_layout: default/variant
   - i18n:
       docs_structure: suffix
       reconfigure_search: true

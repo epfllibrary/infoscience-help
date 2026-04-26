@@ -1,3 +1,8 @@
+---
+description: >-
+  Comment exporter et réutiliser les données Infoscience : moissonnage OAI-PMH, API REST, export BibTeX/RIS, push ORCID et intégration de widgets.
+---
+
 # Exporter, partager et réutiliser les données Infoscience (API, OAI, exports…)
 
 ![Bannière — Exporter et réutiliser les données Infoscience](assets/images/export-reuse/banner.png)
