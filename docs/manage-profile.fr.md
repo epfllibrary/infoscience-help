@@ -93,6 +93,11 @@ Vous pouvez définir une URL personnalisée, plus lisible que celle générée a
 
 Connecter votre identifiant ORCID à votre profil Infoscience garantit que vos productions de recherche vous sont correctement attribuées et contribue à maintenir un dossier académique complet et à jour.
 
+<figure markdown="span">
+  ![ORCID-EPFL-Infoscience](assets/images/manage-profile/orcid_epfl.jpg){ width="500" }
+  <figcaption>Vos publications, synchronisées et visibles partout</figcaption>
+</figure>
+
 ### Accéder aux paramètres ORCID d'Infoscience
 
 Dans Infoscience, vous pouvez lier votre identifiant ORCID à votre [profil](https://infoscience.epfl.ch/profile). Après avoir accédé à votre page de profil Infoscience, **sélectionnez « Ouvrir la page de paramétrage ORCID »** pour accéder à l'option de liaison ORCID.
