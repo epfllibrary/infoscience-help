@@ -168,7 +168,7 @@ When a record contains one or more files, you have different options:
 
 - If the file is **restricted access**:
     - **For non-EPFL users**, you can **request a copy** for your personal use. To do this, go to the "**Files**" tab, then click on "**Request a copy**" (**3**). Once the request form has been filled in (**4**), if the author agrees, you will receive an e-mail containing a temporary access link to the file(s).
-    - **For EPFL users**, restricted-access files are accessible after **authentication** with the Gaspar account via Tequila.
+    - **For EPFL users**, restricted-access files are accessible after **authentication** with the Gaspar account via Microsoft Entra ID.
 
 - **For documents under embargo**, the file(s) become accessible after the release date indicated on the record details. However, you can still access the file(s) by requesting a copy.
 

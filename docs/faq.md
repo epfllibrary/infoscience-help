@@ -16,7 +16,7 @@ Otherwise, you will find the most frequently asked questions below. If you can't
 
 <span id="q1"></span>
 ??? question "Q1 — I can't connect: what should I do?"
-    Please check that your Tequila identifiers have been entered correctly.
+    Please check that your EPFL identifiers have been entered correctly.
     If the problem persists, contact the Infoscience team [infoscience@epfl.ch](mailto:infoscience@epfl.ch)
 
 <span id="q2"></span>
@@ -53,7 +53,7 @@ Otherwise, you will find the most frequently asked questions below. If you can't
 
 <span id="q9"></span>
 ??? question "Q9 — I am new to EPFL: what should I do?"
-    As soon as you have created your profile in People-EPFL, you can access Infoscience using your Tequila login. When you log in for the first time, you will be asked to accept the [conditions of use](https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/).
+    As soon as you have created your profile in People-EPFL, you can access Infoscience using your EPFL login. When you log in for the first time, you will be asked to accept the [conditions of use](https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/).
     Your rights in Infoscience (reading, filing, editing, etc.) are configured according to your status at EPFL. Do not hesitate to contact the Infoscience team for any information: [infoscience@epfl.ch](mailto:infoscience@epfl.ch)
 
 <span id="q10"></span>

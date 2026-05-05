@@ -167,7 +167,7 @@ Lorsqu'une notice contient un ou plusieurs fichiers, plusieurs options s'offrent
 
 - Si le fichier est en **accès restreint** :
     - **Pour les non-membres EPFL**, vous pouvez **demander une copie** à des fins personnelles. Pour cela, accédez à l'onglet « **Files** », puis cliquez sur « **Request a copy** » (**3**). Une fois le formulaire de demande rempli (**4**), si l'auteur.trice accepte, vous recevrez un e-mail contenant un lien d'accès temporaire au(x) fichier(s).
-    - **Pour les membres EPFL**, les fichiers en accès restreint sont accessibles après **authentification** avec le compte Gaspar via Tequila.
+    - **Pour les membres EPFL**, les fichiers en accès restreint sont accessibles après **authentification** avec le compte Gaspar via Microsoft Entra ID.
 
 - **Pour les documents sous embargo**, le(s) fichier(s) deviennent accessibles après la date de levée indiquée dans les détails de la notice. Vous pouvez toutefois y accéder en avance en faisant une demande de copie.
 
