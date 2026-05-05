@@ -115,6 +115,8 @@ plugins:
           nav_translations:
             # Top-level sections
             Home: Accueil
+            About Infoscience: À propos d'Infoscience
+            Roles and rights: Rôles et droits
             Deposit: Déposer
             Manage: Gérer
             Search & Reuse: Rechercher et réutiliser
@@ -143,6 +145,8 @@ plugins:
 
 nav:
   - Home: index.md
+  - About Infoscience: about.md
+  - Roles and rights: roles-rights.md
   - Deposit:
       - Submit a publication: submit-a-publication.md
       - Use the submission form: use-submission-form.md
