@@ -145,8 +145,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - About Infoscience: about.md
-  - Roles and rights: roles-rights.md
+  - About:
+      - About Infoscience: about.md
+      - Roles and rights: roles-rights.md
   - Deposit:
       - Submit a publication: submit-a-publication.md
       - Use the submission form: use-submission-form.md
