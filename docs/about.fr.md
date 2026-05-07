@@ -143,6 +143,10 @@ Les documents suivants sont déposés exclusivement par l'équipe Infoscience :
 - les thèses de doctorat EPFL (en collaboration avec l'École Doctorale)
 - les brevets (en collaboration avec le Technology Transfer Office)
 
+---
+
+## Charte et licence de dépôt
+
 Pour plus d'informations, consultez la [charte et licence de dépôt](https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/).
 
 ---

@@ -35,7 +35,7 @@ This page documents the rights associated with each role in Infoscience. Two cat
 |---|---|---|
 | **Submitter of the record** | Rec. submitter | The person who deposited a specific record |
 | **Author of the record** | Rec. author | An EPFL author linked to a specific record via authority control |
-| **Head of unit** | Unit head | Approver for a unit collection (lab head or PI) |
+| **Head of unit** | Unit head | Manager for a unit collection (lab head or PI) |
 | **Delegated head of unit** | Del. unit head | User delegated by a head of unit |
 
 ---

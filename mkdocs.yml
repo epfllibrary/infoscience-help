@@ -37,6 +37,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.sections
+    - navigation.expand
     - navigation.path
     - navigation.top
     - navigation.footer
@@ -46,6 +47,7 @@ theme:
     - content.action.edit
     - content.action.view
     - toc.follow
+    - toc.integrate
 
 extra_css:
   - assets/css/infoscience-theme.css
@@ -140,8 +142,10 @@ plugins:
             Data model: Modèle de données
             Metadata Application Profile: Profil d'application des métadonnées
             FAQ: FAQ
-            Book an Infoscience expert: Réserver un expert Infoscience
-            Charter, deposit licence and conditions of use: Charte, licence de dépôt et conditions d'utilisation
+  - privacy:
+      links_attr_map:
+        target: _blank
+      links_noopener: true
 
 nav:
   - Home: index.md
@@ -167,8 +171,6 @@ nav:
       - Data model: data-model.md
       - Metadata Application Profile: metadata-profile.md
       - FAQ: faq.md
-      - Book an Infoscience expert: https://go.epfl.ch/book-an-infoscience-expert
-      - Charter, deposit licence and conditions of use: https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/
 
 extra:
   meta:

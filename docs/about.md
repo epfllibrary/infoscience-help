@@ -144,6 +144,10 @@ The following documents are exclusively deposited by the Infoscience team:
 - EPFL doctoral theses (in collaboration with the Doctoral School)
 - Patents (in collaboration with the Technology Transfer Office)
 
+---
+
+## Charter and deposit licence
+
 For more information, refer to the [charter and deposit licence](https://www.epfl.ch/campus/library/services-researchers/infoscience-en/charter-deposit-licence-and-conditions-of-use/).
 
 ---

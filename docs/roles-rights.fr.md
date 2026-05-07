@@ -35,7 +35,7 @@ Cette page documente les droits associés à chaque rôle dans Infoscience. Deux
 |---|---|---|
 | **Déposant·e de la notice** | Dép. notice | La personne qui a déposé une notice spécifique |
 | **Auteur·trice de la notice** | Aut. notice | Un·e auteur·trice EPFL lié·e à une notice spécifique via le contrôle d'autorité |
-| **Responsable d'unité** | Resp. unité | Approbateur·trice d'une collection d'unité (responsable de labo ou PI) |
+| **Responsable d'unité** | Resp. unité | Gestionnaire d'une collection d'unité (responsable de labo ou PI) |
 | **Responsable d'unité délégué·e** | Resp. unité dél. | Utilisateur·trice délégué·e par un·e responsable d'unité |
 
 ---
