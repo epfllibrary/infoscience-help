@@ -84,99 +84,6 @@ To do this, use the [Zotero Connector](https://www.zotero.org/download/connector
 
 ## Reuse metadata
 
-### REST API
-
-**Access URL:** `https://infoscience.epfl.ch/server/api`
-
-Infoscience is a solution based entirely on back-end services provided by a [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API.
-
-This API is based on several standards to ensure a smooth and self-documenting interaction: [ALPS](https://datatracker.ietf.org/doc/html/draft-amundsen-richardson-foster-alps-04) (Application Level Profile Semantics), [HATEOAS](https://spring.io/projects/spring-hateoas) (Hypertext As The Engine Of Application State) and [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language) (Hypertext Application Language). A dedicated [**HAL Browser**](https://infoscience.epfl.ch/server/#/server/api) provides a complete description of all available endpoints.
-
-**API responses are provided in a standard format expressed in JSON**. In addition, each API response includes links to the following operations available, allowing the API to describe itself and guide the user through its interactions.
-
-#### Anonymous access
-
-**The API allows read-only access to metadata and public files without requiring authentication.**
-
-This allows any user to view publicly available information.
-
-#### Access via Token
-
-**Users can obtain an activatable token from their account on the Infoscience platform**, which grants them specific access rights based on the role(s) assigned to them.
-
-**This token is essential for making authenticated requests to the API and for accessing protected resources.**
-
-**Get a Token:**
-
-1. **Log in** to your account on the Infoscience platform.
-2. Click on **Account and profile** under your profile icon.
-3. Scroll down and click on "**Generate a new token**" (**1**).
-4. Write down and keep the displayed token in a secure place.
-
-![Generate a new token (1)](assets/images/export-reuse/10.7EN.png)
-
-!!! warning
-    Once generated, the token will no longer be visible. If you lose it, you'll need to generate a new one.
-
-#### Service accounts
-
-**It is possible to create a** (local) "**service account**" **that is not attached to an individual account to benefit from additional rights**. In specific, justified contexts, these accounts can also obtain write rights.
-
-For any request, please contact [infoscience@epfl.ch](mailto:infoscience@epfl.ch).
-
-#### Security best practices
-
-To ensure the security of your token, please follow these recommendations:
-
-- **Never share your token:** Never pass your token on to a third party, as this could compromise the security of your access.
-- **Avoid exposure:** Don't include it in shared source code or public repositories (for example, on GitHub).
-- **If you suspect that your token has been compromised or if you have lost it**, you can generate a new one by following the same steps as for the first obtainment.
-
-#### Official API Documentation
-
-**You can find the official documentation of the API** based on the DSpace solution and the DSpace-CRIS distribution at these addresses:
-
-- **DSpace:** [https://github.com/DSpace/RestContract](https://github.com/DSpace/RestContract)
-- **DSpace-CRIS distribution-specific endpoints:** [https://github.com/4Science/Rest7Contract](https://github.com/4Science/Rest7Contract)
-
-#### Some examples of queries
-
-Below are some examples of requests made with the API. To find out which search indexes are available, please refer to the [data model](https://github.com/epfllibrary/infoscience-map).
-
-**Get item:**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/core/items/{{uuid_item}}' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer YOUR_TOKEN'
-```
-
-**Get item with bundles/bitstreams:**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/core/items/{{uuid_item}}?embed=bundles/bitstreams' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer YOUR_TOKEN'
-```
-
-**Search items with 'artificial intelligence' criteria:**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/discover/search/objects?sort=score,DESC&page=0&size=20&configuration=researchoutputs&query=Artificial+intelligence' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer YOUR_TOKEN'
-```
-
-**Search items affiliated with a specific unit:**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/discover/search/objects?sort=dc.date.issued,DESC&page=0&size=10&configuration=researchoutputs&query=unitOrLab:LASUR' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer YOUR_TOKEN'
-```
-
----
-
 ### OAI-PMH
 
 Infoscience is compatible with the [OAI-PMH](https://www.openarchives.org/pmh/) (Open Archives Initiative Protocol for Metadata Harvesting), a standard that allows the automated exchange of metadata between data warehouses. It facilitates access to and management of information about digital assets.
@@ -237,6 +144,20 @@ https://infoscience.epfl.ch/server/oai/openaire4?verb=ListRecords&metadataPrefix
 ```
 https://infoscience.epfl.ch/server/oai/openaire4?verb=ListRecords&metadataPrefix=oai_dc&from=2024-07-13T00:00:00Z&until=2024-07-14T23:59:00Z
 ```
+---
+
+### REST API
+
+**Access URL:** `https://infoscience.epfl.ch/server/api`
+
+Infoscience is a solution based entirely on back-end services provided by a [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API.
+
+This API is based on several standards to ensure a smooth and self-documenting interaction: [ALPS](https://datatracker.ietf.org/doc/html/draft-amundsen-richardson-foster-alps-04) (Application Level Profile Semantics), [HATEOAS](https://spring.io/projects/spring-hateoas) (Hypertext As The Engine Of Application State) and [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language) (Hypertext Application Language). A dedicated [**HAL Browser**](https://infoscience.epfl.ch/server/#/server/api) provides a complete description of all available endpoints.
+
+**API responses are provided in a standard format expressed in JSON**. In addition, each API response includes links to the following operations available, allowing the API to describe itself and guide the user through its interactions.
+
+!!! note "REST API Documentation"
+    Consult the API documentation in this [section](api.md)
 
 ---
 

@@ -138,6 +138,7 @@ plugins:
             Search and consult: Rechercher et consulter
             Identifiers (DOI, Handle, ISBN): Identifiants (DOI, Handle, ISBN)
             Export and reuse data (OAI, API): Exporter et réutiliser les données
+            Using the Infoscience REST API: Utiliser l'API REST d'Infoscience
             # Miscellaneous section
             Data model: Modèle de données
             Metadata Application Profile: Profil d'application des métadonnées
@@ -167,6 +168,7 @@ nav:
       - Search and consult: search-and-consult.md
       - Identifiers (DOI, Handle, ISBN): identifiers.md
       - Export and reuse data (OAI, API): export-reuse.md
+      - Using the Infoscience REST API: api.md
   - Miscellaneous:
       - Data model: data-model.md
       - Metadata Application Profile: metadata-profile.md

@@ -80,95 +80,6 @@ Pour cela, utilisez l'extension [Zotero Connector](https://www.zotero.org/downlo
 
 ## Réutiliser les métadonnées
 
-### API REST
-
-**URL d'accès :** `https://infoscience.epfl.ch/server/api`
-
-Infoscience est une solution entièrement basée sur des services back-end fournis par une API de type [REST](https://fr.wikipedia.org/wiki/Representational_state_transfer).
-
-Cette API est basée sur plusieurs standards pour assurer une interaction fluide et auto-documentée : [ALPS](https://datatracker.ietf.org/doc/html/draft-amundsen-richardson-foster-alps-04), [HATEOAS](https://spring.io/projects/spring-hateoas) et [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language). Un **[HAL Browser](https://infoscience.epfl.ch/server/#/server/api)** dédié fournit une description complète de tous les points d'accès disponibles.
-
-**Les réponses de l'API sont fournies dans un format standard exprimé en JSON.**
-
-#### Accès anonyme
-
-**L'API permet un accès en lecture seule aux métadonnées et aux fichiers publics sans nécessiter d'authentification.**
-
-#### Accès via Token
-
-**Les utilisateur.trices peuvent obtenir un token activable depuis leur compte sur la plateforme Infoscience**, qui leur accorde des droits d'accès spécifiques basés sur leur(s) rôle(s).
-
-**Ce token est essentiel pour effectuer des requêtes authentifiées vers l'API et pour accéder aux ressources protégées.**
-
-**Obtenir un Token :**
-
-1. **Connectez-vous** à votre compte sur la plateforme Infoscience.
-2. Cliquez sur **Compte et profil** sous votre icône de profil.
-3. Faites défiler vers le bas et cliquez sur « **Générer un nouveau token** » (**1**).
-4. Notez et conservez le token affiché dans un endroit sécurisé.
-
-![Générer un nouveau token (1)](assets/images/export-reuse/10.7.png)
-
-!!! warning
-    Une fois généré, le token ne sera plus visible. Si vous le perdez, vous devrez en générer un nouveau.
-
-#### Comptes de service
-
-**Il est possible de créer un « compte de service »** (local) **qui n'est pas rattaché à un compte individuel afin de bénéficier de droits supplémentaires.** Dans des contextes spécifiques et justifiés, ces comptes peuvent également obtenir des droits en écriture.
-
-Pour toute demande, veuillez contacter [infoscience@epfl.ch](mailto:infoscience@epfl.ch).
-
-#### Bonnes pratiques de sécurité
-
-- **Ne partagez jamais votre token** avec un tiers.
-- **Évitez l'exposition** : ne l'incluez pas dans du code source partagé ou des dépôts publics (ex. GitHub).
-- **En cas de suspicion de compromission**, générez un nouveau token en suivant la même procédure.
-
-#### Documentation officielle de l'API
-
-**Vous pouvez trouver la documentation officielle de l'API** à ces adresses :
-
-- **DSpace :** [https://github.com/DSpace/RestContract](https://github.com/DSpace/RestContract)
-- **Points d'accès spécifiques à la distribution DSpace-CRIS :** [https://github.com/4Science/Rest7Contract](https://github.com/4Science/Rest7Contract)
-
-#### Exemples de requêtes
-
-Ci-dessous quelques exemples de requêtes effectuées avec l'API. Pour connaître les index de recherche disponibles, référez-vous au [modèle de données](https://github.com/epfllibrary/infoscience-map).
-
-**Récupérer une notice :**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/core/items/{{uuid_item}}' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer VOTRE_TOKEN'
-```
-
-**Récupérer une notice avec ses bundles/bitstreams :**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/core/items/{{uuid_item}}?embed=bundles/bitstreams' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer VOTRE_TOKEN'
-```
-
-**Rechercher des notices avec le critère « intelligence artificielle » :**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/discover/search/objects?sort=score,DESC&page=0&size=20&configuration=researchoutputs&query=Artificial+intelligence' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer VOTRE_TOKEN'
-```
-
-**Rechercher des notices affiliées à une unité spécifique :**
-
-```bash
-curl --location 'https://infoscience.epfl.ch/server/api/discover/search/objects?sort=dc.date.issued,DESC&page=0&size=10&configuration=researchoutputs&query=unitOrLab:LASUR' \
---header 'accept: application/json, text/plain, */*' \
---header 'Authorization: Bearer VOTRE_TOKEN'
-```
-
----
-
 ### Entrepôt OAI-PMH
 
 Infoscience est compatible avec le protocole [OAI-PMH](https://www.openarchives.org/pmh/) (Open Archives Initiative Protocol for Metadata Harvesting), un standard qui permet l'échange automatisé de métadonnées entre entrepôts de données.
@@ -227,6 +138,21 @@ https://infoscience.epfl.ch/server/oai/openaire4?verb=ListRecords&metadataPrefix
 ```
 https://infoscience.epfl.ch/server/oai/openaire4?verb=ListRecords&metadataPrefix=oai_dc&from=2024-07-13T00:00:00Z&until=2024-07-14T23:59:00Z
 ```
+
+---
+
+### API REST
+
+**URL d'accès :** `https://infoscience.epfl.ch/server/api`
+
+Infoscience est une solution entièrement basée sur des services back-end fournis par une API de type [REST](https://fr.wikipedia.org/wiki/Representational_state_transfer).
+
+Cette API est basée sur plusieurs standards pour assurer une interaction fluide et auto-documentée : [ALPS](https://datatracker.ietf.org/doc/html/draft-amundsen-richardson-foster-alps-04), [HATEOAS](https://spring.io/projects/spring-hateoas) et [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language). Un **[HAL Browser](https://infoscience.epfl.ch/server/#/server/api)** dédié fournit une description complète de tous les points d'accès disponibles.
+
+**Les réponses de l'API sont fournies dans un format standard exprimé en JSON.**
+
+!!! note "Documentation de l'API REST"
+    Consulter la documentation de l'API sur cette [section](api.fr.md)
 
 ---
 
