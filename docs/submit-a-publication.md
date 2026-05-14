@@ -108,7 +108,7 @@ On the "**Your submissions**" page, two options are available:
 
 ![Manual submission — drag and drop (1) or New deposit (2)(3)](assets/images/submit-a-publication/ManualSubmission.png)
 
-You can also upload the corresponding file(s) for your publication by dragging and dropping them or by downloading them (**3**) => **See the Help page** for [the submission form](use-submission-form.md), under "**Upload files**," to learn about the submission process for one or more files and their access conditions using the Sherpa Romeo tool, to find out about your publisher's open access policy.
+You can also upload the corresponding file(s) for your publication by dragging and dropping them or by downloading them (**3**) => **See the Help page** for [the submission form](use-submission-form.md), under "**Upload files**," to learn about the submission process for one or more files and their access conditions using the [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) tool, to find out about your publisher's open access policy.
 
 At the end of the entry process: you can save the notice as a draft by clicking on **Save for later**\*\*, or submit it to the Infoscience team for bibliographic validation by clicking on **Deposit** (**4**).
 
@@ -144,8 +144,12 @@ As the submitter and/or author of a record, you have the option of **creating a 
 - If you are the author of the notice, search for it using **the search bar** or on "**profile > View > Scholarly works**" (**2**), where you will find all your publications.
 - Click on the desired notice by pressing "**View**" (**3**).
 - Once the record is open, you'll find a "**…**" button in the top right-hand corner. (**4**)
-- Select "**Create new version**" (**5**): modify/add the desired fields in the form; modify/add the attached files.
-- Then **upload the new version**.
+- Select "**Create new version**" (**5**).
+- If applicable, **change the collection** (e.g. from *Preprint* to *Journal Articles*).
+- **Clear the current document type** and select the appropriate one for the new version (e.g. *Journal Article*).
+- Modify/add the desired fields in the form.
+- Regarding the attached file: upload the most advanced version permitted by the publisher's open access policy (check [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/)). If neither the accepted nor the published version can be deposited, you may keep the preprint file already on record.
+- Then **submit the new version**.
 
 It will be examined by the Infoscience team before distribution.
 

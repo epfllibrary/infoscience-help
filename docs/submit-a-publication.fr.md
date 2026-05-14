@@ -105,7 +105,7 @@ Sur la page « Vos dépôts », deux options se présentent :
 
 ![Saisie manuelle — glisser-déposer (1) ou Nouveau dépôt (2)(3)](assets/images/submit-a-publication/SoumissionManuelle.png)
 
-Vous pouvez également déposer le(s) fichier(s) correspondant à votre publication en les glissant-déposant ou en les téléchargeant (**3**) => **Consultez la page d'aide** pour le [formulaire de dépôt](use-submission-form.fr.md), sous « **Upload files** », pour en savoir plus sur les conditions de diffusion à l'aide de l'outil Sherpa Romeo.
+Vous pouvez également déposer le(s) fichier(s) correspondant à votre publication en les glissant-déposant ou en les téléchargeant (**3**) => **Consultez la page d'aide** pour le [formulaire de dépôt](use-submission-form.fr.md), sous « **Upload files** », pour en savoir plus sur les conditions de diffusion à l'aide de l'outil [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/).
 
 À la fin de la saisie : vous pouvez sauvegarder la notice en brouillon en cliquant sur **Sauvegarder pour plus tard**\*\*, ou la soumettre à l'équipe Infoscience pour validation bibliographique en cliquant sur **Déposer** (**4**).
 
@@ -133,8 +133,12 @@ En tant que déposant.e et/ou auteur.trice d'une notice, vous avez la possibilit
 - Si vous êtes l'auteur.trice de la notice, recherchez-la via la barre de recherche ou via « **profil > Voir > Travaux académiques** » (**2**).
 - Cliquez sur la notice souhaitée en appuyant sur « **Voir** » (**3**).
 - Une fois la notice ouverte, vous trouverez un bouton « **…** » en haut à droite. (**4**)
-- Sélectionnez « **Créer une nouvelle version** » (**5**) : modifiez/ajoutez les champs souhaités dans le formulaire ; modifiez/ajoutez les fichiers joints.
-- Puis déposez la nouvelle version.
+- Sélectionnez « **Créer une nouvelle version** » (**5**).
+- Le cas échéant, **modifiez la collection** (ex. : de *Preprint* vers *Journal Articles*).
+- **Effacez le type de document actuel** et sélectionnez le type approprié pour la nouvelle version (ex. : *Journal Article*).
+- Modifiez/ajoutez les champs souhaités dans le formulaire.
+- Concernant le fichier joint : déposez la version la plus avancée autorisée par la politique d'accès ouvert de l'éditeur (consultez [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/)). Si ni la version acceptée ni la version publiée ne peuvent être déposées, vous pouvez conserver le fichier preprint déjà présent dans la notice.
+- Puis **soumettez la nouvelle version**.
 
 Elle sera examinée par l'équipe Infoscience avant diffusion.
 
