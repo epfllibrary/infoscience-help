@@ -104,7 +104,7 @@ Dans le formulaire fichier, le·la déposant·e doit **choisir l'une des licence
 !!! tip
     **Si la politique de l'éditeur le permet, déposez la version publiée**, avec tout embargo imposé. **Il est toujours permis de déposer des preprints et postprints**.
 
-Consultez [Sherpa Romeo](http://www.sherpa.ac.uk/romeo/) pour connaître la politique Open Access de votre éditeur.
+Consultez [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) pour connaître la politique Open Access de votre éditeur.
 
 **Pour plus d'informations, consultez la page** [Conseils pour le dépôt de vos fichiers](file-naming-formats.fr.md).
 
@@ -182,11 +182,11 @@ Dans cette section (**1**), vous pouvez ajouter :
 
 ## Section Politique Open Access de l'éditeur
 
-La plateforme Infoscience fournit des informations sur les politiques Open Access des revues et éditeurs/ISSN, issues de [Sherpa Romeo](https://www.sherpa.ac.uk/romeo/). Vous pouvez ainsi savoir quelle version de votre publication vous êtes autorisé·e à déposer et si une restriction de diffusion (embargo) doit être appliquée.
+La plateforme Infoscience fournit des informations sur les politiques Open Access des revues et éditeurs/ISSN, issues de [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/). Vous pouvez ainsi savoir quelle version de votre publication vous êtes autorisé·e à déposer et si une restriction de diffusion (embargo) doit être appliquée.
 
 *En cas de doute, vous pouvez déposer le texte intégral en Open Access : avant la diffusion de votre notice, l'équipe Infoscience vérifiera la licence et son adéquation avec ce type d'accès.*
 
-![Information Politique Open Access de l'éditeur (Sherpa Romeo)](assets/images/use-submission-form/12EN.png)
+![Information Politique Open Access de l'éditeur (Open Policy Finder)](assets/images/use-submission-form/12EN.png)
 
 ---
 

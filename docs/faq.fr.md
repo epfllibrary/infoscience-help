@@ -178,7 +178,7 @@ Sinon vous trouverez ci-dessous les questions les plus fréquemment posées. Si 
 
 <span id="q33"></span>
 ??? question "Q33 — Je ne connais pas les conditions de diffusion (licence) de ma publication, que dois-je faire ?"
-    La plateforme Infoscience vous informe sur les politiques Open Access des revues et des éditeurs/ISSN. Les données, issues de [Sherpa Romeo](https://www.sherpa.ac.uk/romeo/), vous permettent de déterminer quelle version de votre publication vous pouvez déposer et si des restrictions de diffusion (embargo) s’appliquent.
+    La plateforme Infoscience vous informe sur les politiques Open Access des revues et des éditeurs/ISSN. Les données, issues de [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/), vous permettent de déterminer quelle version de votre publication vous pouvez déposer et si des restrictions de diffusion (embargo) s’appliquent.
 
 <span id="q34"></span>
 ??? question "Q34 — L'accès à ma publication est restreint aux utilisateurs EPFL : comment la placer en Open access ?"

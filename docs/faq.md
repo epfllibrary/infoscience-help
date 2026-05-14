@@ -180,7 +180,7 @@ Otherwise, you will find the most frequently asked questions below. If you can't
 
 <span id="q33"></span>
 ??? question "Q33 — I don't know the distribution conditions (licence) for my publication. What should I do?"
-    The Infoscience platform provides information on the Open Access policies of journals and publishers/ISSNs. The data, taken from [Sherpa Romeo](https://www.sherpa.ac.uk/romeo/), enables you to determine which version of your publication you can deposit and whether dissemination restrictions (embargoes) apply.
+    The Infoscience platform provides information on the Open Access policies of journals and publishers/ISSNs. The data, taken from [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/), enables you to determine which version of your publication you can deposit and whether dissemination restrictions (embargoes) apply.
 
 <span id="q34"></span>
 ??? question "Q34 — Access to my publication is restricted to EPFL users: how can I make it Open Access?"

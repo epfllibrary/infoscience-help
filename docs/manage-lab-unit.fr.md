@@ -236,9 +236,11 @@ Cette option s'applique également aux publications dont le déposant ou l'un de
 
     ![Champ sommaire du commentaire de version](assets/images/manage-lab-unit/Capture-decran-2025-03-24-113653-1.png)
 
-5. Modifiez ou ajoutez les champs nécessaires dans le formulaire.
-6. Remplacez les fichiers joints et mettez à jour leurs métadonnées si nécessaire.
-7. Déposez la nouvelle version.
+5. Le cas échéant, **modifiez la collection** (ex. : de *Preprint* vers *Journal Articles*).
+6. **Effacez le type de document actuel** et sélectionnez le type approprié pour la nouvelle version (ex. : *Journal Article*).
+7. Modifiez ou ajoutez les champs nécessaires dans le formulaire.
+8. Concernant le fichier joint : déposez la version la plus avancée autorisée par la politique d'accès ouvert de l'éditeur (consultez [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/)). Si ni la version acceptée ni la version publiée ne peuvent être déposées, vous pouvez conserver le fichier preprint déjà présent dans la notice.
+9. Déposez la nouvelle version.
 
 **Gestion des versions dans Infoscience :**
 

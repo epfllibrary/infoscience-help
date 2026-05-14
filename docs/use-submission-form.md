@@ -114,7 +114,7 @@ Here are some rules for file naming and integration on Infoscience to harmonize 
 !!! tip
     If the publisher's policy allows, deposit the published version, with any imposed embargo. It is **always permissible to deposit preprint and postprint versions.**
 
-    The [Sherpa Romeo](http://www.sherpa.ac.uk/romeo/) "Publisher open access policy information" section helps you choose the appropriate license for each file.
+    The [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) "Publisher open access policy information" section helps you choose the appropriate license for each file.
 
 **For more information, please consult the** [File naming and formats best practices](file-naming-formats.md) **page.**
 
@@ -200,11 +200,11 @@ In this section (**1**), you can add:
 
 ## Publisher Open Access Policy Information section
 
-The Infoscience platform provides information on Open Access policies for journals and publishers/ISSNs. The information comes from [Sherpa Romeo](https://www.sherpa.ac.uk/romeo/) and can be used to find out: which version of your publication you are authorised to submit, and whether a dissemination restriction (embargo) must be applied.
+The Infoscience platform provides information on Open Access policies for journals and publishers/ISSNs. The information comes from [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) and can be used to find out: which version of your publication you are authorised to submit, and whether a dissemination restriction (embargo) must be applied.
 
 *If in doubt, you can submit the full text as open access: before disseminating your record, the Infoscience team will check the licence and its suitability for this type of access.*
 
-![Publisher Open Access Policy information (Sherpa Romeo)](assets/images/use-submission-form/12EN.png)
+![Publisher Open Access Policy information (Open Policy Finder)](assets/images/use-submission-form/12EN.png)
 
 ---
 

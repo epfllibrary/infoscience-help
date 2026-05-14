@@ -240,9 +240,11 @@ This option also applies to publications where the submitter or one of the autho
 
     ![Version summary field](assets/images/manage-lab-unit/Image_ENG_47.png)
 
-5. Modify or add the necessary fields in the form.
-6. Replace attached files and update their metadata if necessary.
-7. Submit the new version.
+5. If applicable, **change the collection** (e.g. from *Preprint* to *Journal Articles*).
+6. **Clear the current document type** and select the appropriate one for the new version (e.g. *Journal Article*).
+7. Modify or add the necessary fields in the form.
+8. Regarding the attached file: upload the most advanced version permitted by the publisher's open access policy (check [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/)). If neither the accepted nor the published version can be deposited, you may keep the preprint file already on record.
+9. Submit the new version.
 
 **Version management in Infoscience:**
 
