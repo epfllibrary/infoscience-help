@@ -125,7 +125,7 @@ author_editor:(bierlaire, michel)
     ```
     dc.description.sponsorship:LASUR
     ```
-    [Try this query →](https://infoscience.epfl.ch/search?spc.page=1&query=dc.description.sponsorship:LASUR:LASUR&configuration=researchoutputs)
+    [Try this query →](https://infoscience.epfl.ch/search?spc.page=1&query=dc.description.sponsorship:LASUR&configuration=researchoutputs)
 
 ### Search by chronological limitation
 
